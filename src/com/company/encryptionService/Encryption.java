@@ -1,6 +1,6 @@
 package com.company.encryptionService;
 
 public interface Encryption {
-    byte[] encrypt();
-    byte[] decrypt();
+    String encrypt(String data) throws Exception;
+    String decrypt(String data) throws Exception;
 }

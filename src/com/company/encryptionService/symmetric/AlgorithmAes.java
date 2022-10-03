@@ -1,13 +1,14 @@
 package com.company.encryptionService.symmetric;
 
 public class AlgorithmAes extends SymmetricEncryption {
+
     @Override
-    public byte[] encrypt() {
-        return new byte[0];
+    public String encrypt(String data) throws Exception {
+        return null;
     }
 
     @Override
-    public byte[] decrypt() {
-        return new byte[0];
+    public String decrypt(String data) throws Exception {
+        return null;
     }
 }
