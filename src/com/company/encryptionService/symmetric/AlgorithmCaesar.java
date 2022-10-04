@@ -16,9 +16,8 @@ public class AlgorithmCaesar {
 
         System.out.println(textToDecrypt);
         charDecryption(textToDecrypt, key2);
-
-
     }
+
     static void charEncryption(String text, int key){
         char[] chars = text.toCharArray();
 
